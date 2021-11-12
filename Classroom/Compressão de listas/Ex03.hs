@@ -6,4 +6,4 @@ quadrado n = [(x,y) | (x,y) <- grid n n, x == y ]
 
 main :: IO ()
 main = do
-    print $ gridIguais 2
+    print $ gridIguais 4
